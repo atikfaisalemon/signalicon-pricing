@@ -30,7 +30,7 @@ const pricing = {
       featured: false,
       description: "All your essential business finances, taken care of.",
       price: { monthly: "৳ 525", annually: "৳ 6,300" },
-      mainFeatures: ["Internet 10 Mbps", "Youtube 50 Mbps", "Facrbook 50 Mbps"],
+      mainFeatures: ["Internet 5 Mbps", "Youtube 30 Mbps", "Facrbook 30 Mbps"],
     },
     {
       name: "10 Mbps",
