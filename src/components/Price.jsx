@@ -6,10 +6,7 @@ import {
   Bars3Icon,
   XMarkIcon as XMarkIconOutline,
 } from "@heroicons/react/24/outline";
-import {
-  CheckIcon,
-  XMarkIcon as XMarkIconMini,
-} from "@heroicons/react/20/solid";
+import { CheckIcon, XMarkIcon as XMaronMini } from "@heroicons/react/20/solid";
 
 const navigation = [
   { name: "Product", href: "#" },
