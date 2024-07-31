@@ -6,7 +6,7 @@ import {
   Bars3Icon,
   XMarkIcon as XMarkIconOutline,
 } from "@heroicons/react/24/outline";
-import { CheckIcon, XMarkIcon as XMaronMini } from "@heroicons/react/20/solid";
+import { CheckIcon } from "@heroicons/react/20/solid";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -21,7 +21,7 @@ const pricing = {
   ],
   tiers: [
     {
-      name: "5 Mbps",
+      name: "7 Mbps",
       id: "tier-starter",
       href: "#",
       featured: false,
