@@ -9,10 +9,10 @@ import {
 import { CheckIcon } from "@heroicons/react/20/solid";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Profile", href: "#" },
+  { name: "Package", href: "#" },
+  { name: "Help", href: "#" },
+  { name: "Go Home", href: "#" },
 ];
 const pricing = {
   frequencies: [
@@ -39,7 +39,7 @@ const pricing = {
       mainFeatures: [
         "Internet 10 Mbps",
         "Youtube 100 Mbps",
-        "Facrbook 100 Mbps",
+        "Facebook 100 Mbps",
       ],
     },
     {
@@ -53,7 +53,7 @@ const pricing = {
       mainFeatures: [
         "Internet 15 Mbps",
         "Youtube 100 Mbps",
-        "Facrbook 100 Mbps",
+        "Facebook 100 Mbps",
       ],
     },
   ],
@@ -333,8 +333,8 @@ export default function Price() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="relative z-10">
                 <h1 className="mx-auto max-w-4xl text-center text-3xl font-bold tracking-tight text-orange-300">
-                  আপনারা এখন থেকে এই সাইট থেকে সরাসরি{" "}
-                  <span className="text-red-600">বিকাশ</span> অথবা{" "}
+                  আপনারা এখন থেকে এই সাইট থেকে সরাসরি
+                  <span className="text-red-600">বিকাশ</span> অথবা
                   <span className="text-red-600">নগদ</span> থেকে মাসিক বিল
                   পরিশোধ করতে পারবেন।
                 </h1>
@@ -342,7 +342,7 @@ export default function Price() {
                   Signalicon | Gopinathpur
                 </h1>
                 <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-white/60">
-                  Exprience bufferless connetivity Tursted by 500+ Familys
+                  Exprience bufferless connectivity Trusted by 500+ Familys
                 </p>
                 <div className="mt-16 flex justify-center">
                   <fieldset aria-label="Payment frequency">
