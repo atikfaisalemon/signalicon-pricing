@@ -329,10 +329,16 @@ export default function Price() {
       <main>
         {/* Pricing section */}
         <div className="isolate overflow-hidden">
-          <div className="flow-root bg-gray-900 py-16 sm:pt-32 lg:pb-0">
+          <div className="flow-root bg-gray-900 py-6 sm:pt-32 lg:pb-0">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="relative z-10">
-                <h1 className="mx-auto max-w-4xl text-center text-5xl font-bold tracking-tight text-white">
+                <h1 className="mx-auto max-w-4xl text-center text-3xl font-bold tracking-tight text-orange-300">
+                  আপনারা এখন থেকে এই সাইট থেকে সরাসরি{" "}
+                  <span className="text-red-600">বিকাশ</span> অথবা{" "}
+                  <span className="text-red-600">নগদ</span> থেকে মাসিক বিল
+                  পরিশোধ করতে পারবেন।
+                </h1>
+                <h1 className="mx-auto max-w-4xl text-center text-5xl font-bold tracking-tight text-white mt-6">
                   Signalicon | Gopinathpur
                 </h1>
                 <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-white/60">
