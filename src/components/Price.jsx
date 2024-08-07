@@ -7,6 +7,7 @@ import {
   XMarkIcon as XMarkIconOutline,
 } from "@heroicons/react/24/outline";
 import { CheckIcon } from "@heroicons/react/20/solid";
+import Marquee from "react-fast-marquee";
 
 const navigation = [
   { name: "Profile", href: "#" },
@@ -332,12 +333,17 @@ export default function Price() {
           <div className="flow-root bg-gray-900 py-6 sm:pt-32 lg:pb-0">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="relative z-10">
-                <h1 className="mx-auto max-w-4xl text-center text-3xl font-bold tracking-tight text-orange-300">
-                  আপনারা এখন থেকে এই সাইট থেকে সরাসরি
-                  <span className="text-red-600">বিকাশ</span> অথবা
-                  <span className="text-red-600">নগদ</span> থেকে মাসিক বিল
-                  পরিশোধ করতে পারবেন।
-                </h1>
+                <Marquee autoFill={true} speed={50}>
+                  <h1
+                    className="line-clamp-1 text-center text-3xl font-bold tracking-tight text-orange-300 pl-20 font-mono"
+                    aria-hidden="true"
+                  >
+                    আপনারা এখন থেকে এই সাইট থেকে সরাসরি
+                    <span className="text-red-600"> বিকাশ</span> অথবা
+                    <span className="text-red-600"> নগদ</span> থেকে মাসিক বিল
+                    পরিশোধ করতে পারবেন।
+                  </h1>
+                </Marquee>
                 <h1 className="mx-auto max-w-4xl text-center text-5xl font-bold tracking-tight text-white mt-6">
                   Signalicon | Gopinathpur
                 </h1>
